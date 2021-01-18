@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngabomugisha/Simple_API.git"
+  },
+  "author": "King Robert #CodeSmasher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngabomugisha/Simple_API/issues"
+  },
+  "homepage": "https://github.com/ngabomugisha/Simple_API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
