@@ -89,7 +89,7 @@ app.get('/api/:province_name/:district_name/:sector_name/:cell_name/:village_nam
       res.json(villages);
 });
 
-const PORT = env.PORT;
+const PORT = process.env.PORT;
 app.listen(5000 || PORT, () => {
     console.log(`Server started on port`);
 });
